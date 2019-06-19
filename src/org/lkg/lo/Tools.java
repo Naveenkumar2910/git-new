@@ -16,6 +16,7 @@ public static void main(String[] args) {
 	List<WebElement> trows = driver.findElements(By.tagName("tr"));
 	for (int i = 0; i < trows.size(); i++) {
 		WebElement row = trows.get(i);
+	System.out.println("naveen");
 		
 	}
 	WebElement row = trows.get(2);
